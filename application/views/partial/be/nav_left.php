@@ -16,16 +16,31 @@
                 <a href="index.html"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
             </li>
             <li>
-                <a href="#" class="nav-left-9"><i class="fa fa-bar-chart-o fa-fw"></i> Users<span class="fa arrow"></span></a>
+                <a href="#" class="nav-left-9"><i class="fa fa-th-list fa-fw"></i> Menu<span class="fa arrow"></span></a>
                 <ul class="nav nav-second-level">
                     <li>
-                        <a href="#">Create</a>
+                        <?php echo anchor("menus/", ' List', array('class' => 'theTooltip glyphicon glyphicon-list', 'title' => 'View List', "data-toggle"=>"tooltip", "data-placement"=>"top")); ?>
                     </li>
                     <li>
-                        <a href="#">Update</a>
+                        <?php echo anchor("menus/create", ' Create', array('class' => 'theTooltip glyphicon glyphicon-plus-sign', 'title' => 'Create', "data-toggle"=>"tooltip", "data-placement"=>"top")); ?>
                     </li>
                     <li>
-                        <a href="#">Remove</a>
+                        <?php echo anchor("menus/remove", ' Remove', array('class' => 'theTooltip glyphicon glyphicon-remove', 'title' => 'Remove', "data-toggle"=>"tooltip", "data-placement"=>"top")); ?>
+                    </li>
+                </ul>
+                <!-- /.nav-second-level -->
+            </li>
+            <li>
+                <a href="#" class="nav-left-9"><i class="fa fa-users fa-fw"></i> Users<span class="fa arrow"></span></a>
+                <ul class="nav nav-second-level">
+                    <li>
+                        <?php echo anchor("users/", ' List', array('class' => 'theTooltip glyphicon glyphicon-list', 'title' => 'View List', "data-toggle"=>"tooltip", "data-placement"=>"top")); ?>
+                    </li>
+                    <li>
+                        <?php echo anchor("users/create", ' Create', array('class' => 'theTooltip glyphicon glyphicon-plus-sign', 'title' => 'Create', "data-toggle"=>"tooltip", "data-placement"=>"top")); ?>
+                    </li>
+                    <li>
+                        <?php echo anchor("users/remove", ' Remove', array('class' => 'theTooltip glyphicon glyphicon-remove', 'title' => 'Remove', "data-toggle"=>"tooltip", "data-placement"=>"top")); ?>
                     </li>
                 </ul>
                 <!-- /.nav-second-level -->
@@ -49,16 +64,16 @@
                 <a href="forms.html"><i class="fa fa-edit fa-fw"></i> Songs</a>
             </li>
             <li>
-                <a href="#"><i class="fa fa-wrench fa-fw"></i> UI Elements<span class="fa arrow"></span></a>
+                <a href="#" class="nav-left-9"><i class="fa fa-wrench fa-fw"></i> Categories<span class="fa arrow"></span></a>
                 <ul class="nav nav-second-level">
                     <li>
-                        <a href="#">Create</a>
+                        <?php echo anchor("categories/", ' List', array('class' => 'theTooltip glyphicon glyphicon-list', 'title' => 'View List', "data-toggle"=>"tooltip", "data-placement"=>"top")); ?>
                     </li>
                     <li>
-                        <a href="#">Update</a>
+                        <?php echo anchor("categories/create", ' Create', array('class' => 'theTooltip glyphicon glyphicon-plus-sign', 'title' => 'Create', "data-toggle"=>"tooltip", "data-placement"=>"top")); ?>
                     </li>
                     <li>
-                        <a href="#">Remove</a>
+                        <?php echo anchor("categories/remove", ' Remove', array('class' => 'theTooltip glyphicon glyphicon-remove', 'title' => 'Remove', "data-toggle"=>"tooltip", "data-placement"=>"top")); ?>
                     </li>
                 </ul>
                 <!-- /.nav-second-level -->

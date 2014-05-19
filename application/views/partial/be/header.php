@@ -8,7 +8,7 @@
     <meta name="author" content="">
     <link rel="icon" href="<?php echo base_url();?>images/up.jpg" type="image/x-icon"/>
 
-    <title>9Tube</title>
+    <title><?php echo $title; ?> - 9Tube</title>
     <?php
     foreach(get_be_css_files() as $css_file)
     {

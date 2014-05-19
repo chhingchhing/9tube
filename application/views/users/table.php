@@ -34,10 +34,9 @@
                                     <td class="center">0972792217</td>
                                     <td class="center">Phnom Penh</td>
                                     <td class="ceneter">
-                                        <?php echo anchor("#users", 'users_new', array('class' => 'list-group-item glyphicon glyphicon-plus-sign', 'title' => 'users_new', 'data-toggle' => 'modal', 'data-target' => '#users')); ?>
-                                        <a href="#">View</a> | 
-                                        <a href="#">Edit</a> | 
-                                        <a href="#">Delete</a>
+                                        <?php echo anchor("$controller_name/view", ' ', array('class' => 'theTooltip glyphicon glyphicon-eye-open', 'title' => 'View', "data-toggle"=>"tooltip", "data-placement"=>"top")); ?> | 
+                                        <?php echo anchor("$controller_name/edit", ' ', array('class' => 'theTooltip glyphicon glyphicon-edit', 'title' => 'Edit')); ?> | 
+                                        <?php echo anchor("$controller_name/delete", ' ', array('class' => 'theTooltip glyphicon glyphicon-remove', 'title' => 'Delete')); ?>
                                     </td>
                                 </tr>
                                 <tr class="even gradeC">
@@ -47,9 +46,9 @@
                                     <td class="center">0972792217</td>
                                     <td class="center">Phnom Penh</td>
                                     <td class="ceneter">
-                                        <a href="#">View</a> | 
-                                        <a href="#">Edit</a> | 
-                                        <a href="#">Delete</a>
+                                        <?php echo anchor("$controller_name/view", ' ', array('class' => 'theTooltip glyphicon glyphicon-eye-open', 'title' => 'View', "data-toggle"=>"tooltip", "data-placement"=>"top")); ?> | 
+                                        <?php echo anchor("$controller_name/edit", ' ', array('class' => 'theTooltip glyphicon glyphicon-edit', 'title' => 'Edit')); ?> | 
+                                        <?php echo anchor("$controller_name/delete", ' ', array('class' => 'theTooltip glyphicon glyphicon-remove', 'title' => 'Delete')); ?>
                                     </td>
                                 </tr>
                                 <tr class="odd gradeA">
@@ -59,9 +58,9 @@
                                     <td class="center">0972792217</td>
                                     <td class="center">Phnom Penh</td>
                                     <td class="ceneter">
-                                        <a href="#">View</a> | 
-                                        <a href="#">Edit</a> | 
-                                        <a href="#">Delete</a>
+                                        <?php echo anchor("$controller_name/view", ' ', array('class' => 'theTooltip glyphicon glyphicon-eye-open', 'title' => 'View', "data-toggle"=>"tooltip", "data-placement"=>"top")); ?> | 
+                                        <?php echo anchor("$controller_name/edit", ' ', array('class' => 'theTooltip glyphicon glyphicon-edit', 'title' => 'Edit')); ?> | 
+                                        <?php echo anchor("$controller_name/delete", ' ', array('class' => 'theTooltip glyphicon glyphicon-remove', 'title' => 'Delete')); ?>
                                     </td>
                                 </tr>
                                 <tr class="even gradeA">
@@ -71,9 +70,9 @@
                                     <td class="center">0972792217</td>
                                     <td class="center">Phnom Penh</td>
                                     <td class="ceneter">
-                                        <a href="#">View</a> | 
-                                        <a href="#">Edit</a> | 
-                                        <a href="#">Delete</a>
+                                        <?php echo anchor("$controller_name/view", ' ', array('class' => 'theTooltip glyphicon glyphicon-eye-open', 'title' => 'View', "data-toggle"=>"tooltip", "data-placement"=>"top")); ?> | 
+                                        <?php echo anchor("$controller_name/edit", ' ', array('class' => 'theTooltip glyphicon glyphicon-edit', 'title' => 'Edit')); ?> | 
+                                        <?php echo anchor("$controller_name/delete", ' ', array('class' => 'theTooltip glyphicon glyphicon-remove', 'title' => 'Delete')); ?>
                                     </td>
                                 </tr>
                             </tbody>

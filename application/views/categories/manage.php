@@ -12,7 +12,7 @@
 
         <?php $allow = true; ?>
         <?php if($allow) { ?>
-            <?php $this->load->view("users/table"); ?>
+            <?php $this->load->view("menus/table"); ?>
         <?php } else { ?>
         <div id="page-wrapper">
             <div class="row">

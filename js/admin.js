@@ -10,3 +10,8 @@ $("body").on("click", "a.nav-left-9", function(){
 	// $(this).parent().closest("ul").addClass("collapse in");
 	// $(this).siblings().addClass("ul").addClass("scollapse in");
 });
+
+$("body").on("mouseover", ".theTooltip", function(){
+	$(this).tooltip('show');
+});
+

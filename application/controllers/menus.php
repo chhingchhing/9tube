@@ -1,27 +1,27 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-class Users extends CI_Controller {
+class Menus extends CI_Controller {
 
 	/**
 	 * Index Page for this controller.
 	 */
 	public function index()
 	{
-		$datas['title'] = "Users Management";
+		$datas['title'] = "Menus Management";
 		$datas['controller_name'] = strtolower(get_class());
-		$this->load->view('users/manage', $datas);
+		$this->load->view('menus/manage', $datas);
 	}
 
 	public function edit() {
-		$datas['title'] = "Edit User";
+		$datas['title'] = "Edit Menu";
 		$datas['controller_name'] = strtolower(get_class());
-		$this->load->view("users/form", $datas);
+		$this->load->view("menus/form", $datas);
 	}
 
 	public function create() {
-		$datas['title'] = "New User";
+		$datas['title'] = "New Menu";
 		$datas['controller_name'] = strtolower(get_class());
-		$this->load->view("users/form", $datas);
+		$this->load->view("menus/form", $datas);
 	}
 
 }
